@@ -1,0 +1,26 @@
+server:
+  port: 8089
+spring:
+  r2dbc:
+    url: r2dbc:mariadb://localhost:3306/user_manager
+    username: root
+    password: 44128920
+    pool:
+      enabled: true
+      max-size: 20
+      initial-size: 5
+      max-idle-time: 30m
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphql
+
+mariadb:
+  host: localhost
+  port: 3306
+  username: root
+  password: 44128920
