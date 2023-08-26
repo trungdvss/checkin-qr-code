@@ -1,4 +1,4 @@
-package com.example.webflux.Entities;
+package com.example.qrcode.Entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

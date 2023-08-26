@@ -1,4 +1,4 @@
-package com.example.webflux.Models;
+package com.example.qrcode.Models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

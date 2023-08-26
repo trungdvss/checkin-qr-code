@@ -24,3 +24,4 @@ mariadb:
   port: 3306
   username: root
   password: 44128920
+  database: user_manager
