@@ -5,15 +5,15 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDateTime;
+
 @AllArgsConstructor
-@Builder
 @NoArgsConstructor
+@Builder
 @Data
-public class UserDTO {
+public class CheckInDTO {
+    private String idUser;
     private String username;
-    private String password;
-    private String fullName;
-    private String soDienThoai;
-    private String email;
-    private String role;
+    private Boolean checkIn;
+    private LocalDateTime dateCheckIn;
 }
